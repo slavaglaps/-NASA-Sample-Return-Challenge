@@ -77,7 +77,7 @@ For navigation, I used this algorithm
     
 **4)From Rover coordinate frame to World coordinate**      
 
-   [Alt text](/readme_image/image5.png?raw=true "Optional Title")
+   ![Alt text](/readme_image/image5.png?raw=true "Optional Title")
    ```python 
    xpix_rock_world, ypix_rock_world = pix_to_world(xpix_rock, ypix_rock,Rover.pos[0], 
                                                      Rover.pos[1],Rover.yaw,Rover.worldmap.shape[0], 10)
